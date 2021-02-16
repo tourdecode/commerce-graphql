@@ -1,0 +1,30 @@
+{
+  "name": "commerce-graphql",
+  "version": "1.0.0",
+  "description": "An example Express based app implementing a GraphQL API using MySQL as its datastore",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon -r esm src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "example",
+    "async",
+    "await",
+    "tutorial",
+    "wrapper"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.12.3",
+    "mysql": "^2.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
